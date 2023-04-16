@@ -14,7 +14,7 @@ echo "NFS share are commented"
 echo ""
 
 
-mount n01svmnas1-02:/prd_nfs_itops_unixadmin_01 /mnt
+mount share_name:/prd_nfs_unixadmin_01 /mnt
 
 /usr/bin/cp $FILESYSTEM  $BACKUP_CENT/$HOST
 echo "For verifying"
